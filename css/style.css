@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFDD8;
+}
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -40px; 
+}
+
+.skip a:focus{
+    position: relative;
+    top: 0px;
+}
+
+header{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 1em;
+}
+
+#logo{
+    display: flex;
+    font-family: 'Over the Rainbow', sans-serif;
+	width: 30%;
+	font-size: 35px;
+	font-weight: 400;
+	padding-left: 30px;
+	padding-top: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 145px;
+    position: absolute;
+    bottom: 75px;
+    background-color:#FFFDD8;
+}
+
+.memoji{
+    width: 175px;
+    height: 175px;
+    position: relative;
+
+}
+.memoji img{
+    max-height: 250px;
+    width: auto;
+    position: absolute;
+    bottom: -200px;
+    right: -50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    padding-right: 30px;
+    color: black
+}
+
+.nav_links{
+    padding-top: -220px;
+}
+
+a:visited{
+    color: inherit;
+}
