@@ -6,6 +6,9 @@ body{
     background-color: #FFFDD8;
 }
 
+a{
+    background: transparent;
+}
 .skip a{
     background: white;
     left: 0;
@@ -41,28 +44,28 @@ header{
 
 h1{
     font-family: 'Abril Fatface', sans-serif;
-    font-size: 145px;
+    font-size: 140px;
     position: absolute;
-    bottom: 75px;
+    bottom: 140px;
     background-color:#FFFDD8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    width: 100%
 }
 
-.memoji{
-    width: 175px;
-    height: 175px;
-    position: relative;
 
-}
 .memoji img{
     max-height: 250px;
     width: auto;
+    height: auto;
     position: absolute;
-    bottom: -200px;
-    right: -50px;
 }
 
 a{
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav{
@@ -80,4 +83,31 @@ nav{
 
 a:visited{
     color: inherit;
+}
+
+.current{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-contents a{
+    margin: 8px;
+    color: white;
+
+}
+
+.footer-contents a:active, .footer-contents a:hover{
+    color: #FFFDD8;
+    display: flex;
+    justify-content: space-evenly;
 }
